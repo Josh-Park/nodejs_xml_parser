@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Context>
+  <Realm className="org.apache.catalina.realm.CombinedRealm">
+    <Realm className="com.blockmaster.server.realm.UserDatabaseRealm" resourceName="UserDatabase"/>
+    <Realm className="com.blockmaster.server.realm.JDBCRealm"/>
+  </Realm>
+  <Valve className="org.apache.catalina.authenticator.SingleSignOn"/>
+  <Valve className="com.blockmaster.server.valve.RemoteIPRealmPushValve"/>
+  <Valve className="org.apache.catalina.valves.RemoteAddrValve" allow="127\.0\.0\.1,0:0:0:0:0:0:0:1(%\w=)?,.*"/>
+</Context>

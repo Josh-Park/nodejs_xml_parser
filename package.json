@@ -1,0 +1,27 @@
+{
+  "name": "nodejs_xml_parser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "xml_template_reinit.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Josh-Park/nodejs_xml_parser.git"
+  },
+  "keywords": [
+    "xml",
+    "node",
+    "nodejs"
+  ],
+  "author": "Joshua Park",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Josh-Park/nodejs_xml_parser/issues"
+  },
+  "homepage": "https://github.com/Josh-Park/nodejs_xml_parser#readme",
+  "devDependencies": {
+    "xml2js": "^0.4.19"
+  }
+}
